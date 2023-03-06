@@ -1,1 +1,1 @@
-Alx first project in Python
+ALX SCRIPTS AND PYTHON INTRODUCTION
