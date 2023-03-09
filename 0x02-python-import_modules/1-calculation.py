@@ -2,7 +2,7 @@
 
 if __name == "__main__":
     """Function that adds, substructs, multiply, divides & return the value"""
-    from calculator_1.py import add, sub, mul, div
+    from calculator_1 import add, sub, mul, div
 
     a = 10
     b = 5
