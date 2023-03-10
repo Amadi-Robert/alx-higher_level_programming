@@ -10,10 +10,11 @@ if len(sys.argv) <= 1:
 total = 0
 
 for arg in sys.argv[1:]:
-    num = int(arg)
+    try:
+        num = int(arg)
+    except valueError:
+        sys.exit(1)
 
     total += num
 
     print(total)
-
-
